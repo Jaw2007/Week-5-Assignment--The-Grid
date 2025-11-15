@@ -56,11 +56,14 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-
+	
 }
 
 #footer-container {
-	
+	display: grid;
+	grid-template-rows: 50px auto 150px;
+	text-align: center;
+	background-color: blue;
 }
 
 #header-container {
