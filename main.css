@@ -77,3 +77,9 @@ p {
 	display:grid;
 	grid-template-columns: 1fr 2fr 1fr;
 }
+nav {
+	background-color: green;
+}
+aside {
+	background-color: red;
+}
