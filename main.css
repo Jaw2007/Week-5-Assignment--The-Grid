@@ -56,7 +56,8 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-	
+	display: grid;
+	border: 2px dotted;
 }
 
 #footer-container {
@@ -69,6 +70,7 @@ p {
 #header-container {
 	display: grid; 
 	grid-template-rows: 50px auto 100px;
+	background-color: orange;
 }
 
 #main-container {
