@@ -41,8 +41,9 @@ header {
 	text-align: center;
 }
 
-main {
-
+main { 
+    display: grid;
+	background-color: palevioletred;
 }
 
 p {
@@ -63,9 +64,10 @@ p {
 }
 
 #header-container {
-
+	
 }
 
 #main-container {
-
+	display:grid;
+	grid-template-columns: 1fr 2fr 1fr;
 }
